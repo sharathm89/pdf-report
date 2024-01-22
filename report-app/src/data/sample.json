@@ -1,0 +1,110 @@
+{
+  "data": {
+    "financialYear": "2024-2025",
+    "bookings": [
+      {
+        "name": "Company Records",
+        "list": [
+          {
+            "value2": 2023,
+            "value1": 4,
+            "roomNight": 152,
+            "flightSeat": 298
+          },
+          {
+            "value2": 2023,
+            "value1": 5,
+            "roomNight": 309,
+            "flightSeat": 497
+          },
+          {
+            "value2": 2023,
+            "value1": 6,
+            "roomNight": 229,
+            "flightSeat": 304
+          },
+          {
+            "value2": 2023,
+            "value1": 7,
+            "roomNight": 272,
+            "flightSeat": 490
+          },
+          {
+            "value2": 2023,
+            "value1": 8,
+            "roomNight": 276,
+            "flightSeat": 368
+          },
+          {
+            "value2": 2023,
+            "value1": 9,
+            "roomNight": 225,
+            "flightSeat": 508
+          },
+          {
+            "value2": 2023,
+            "value1": 10,
+            "roomNight": 170,
+            "flightSeat": 529
+          },
+          {
+            "value2": 2023,
+            "value1": 11,
+            "roomNight": 124,
+            "flightSeat": 409
+          }
+        ]
+      }
+    ],
+    "sellNetRevenueGraph": [
+      {
+        "value2": 2023,
+        "value1": 4,
+        "total_sell": 7207465,
+        "net_revenue": 1027264
+      },
+      {
+        "value2": 2023,
+        "value1": 5,
+        "total_sell": 20144866,
+        "net_revenue": 2043495
+      },
+      {
+        "value2": 2023,
+        "value1": 6,
+        "total_sell": 28027727,
+        "net_revenue": 2334314
+      },
+      {
+        "value2": 2023,
+        "value1": 7,
+        "total_sell": 10853442,
+        "net_revenue": 1161197
+      },
+      {
+        "value2": 2023,
+        "value1": 8,
+        "total_sell": 13993343,
+        "net_revenue": 2626552
+      },
+      {
+        "value2": 2023,
+        "value1": 9,
+        "total_sell": 19466639,
+        "net_revenue": 1630516
+      },
+      {
+        "value2": 2023,
+        "value1": 10,
+        "total_sell": 30986213,
+        "net_revenue": 2663139
+      },
+      {
+        "value2": 2023,
+        "value1": 11,
+        "total_sell": 12267234,
+        "net_revenue": 1230646
+      }
+    ]
+  }
+}

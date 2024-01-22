@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #bb2124;
+  --text-color: #262626;
+  --border-color: #9A9A9A;
+  --grey1-color: #f4f4f4;
+  --grey2-color: #eeeeee;
+  --grey3-color: #E1E1E1;
+  --blue2-color: #4D9AE9;
+  --purple1-color: #7F57C2;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.table-head {
+  background-color: var(--grey1-color);
+  border-bottom: 1px solid var(--border-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+  text-align: left;
+
+
+  > th {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.table-head-no-bg {
+  border-bottom: 1px solid var(--border-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+  text-align: left;
+
+  > th {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.table-row {
+  border-bottom: 1px solid var(--grey3-color);
+
+  > td {
+    padding: 8px 0;
+  }
+}
