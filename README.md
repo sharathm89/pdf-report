@@ -6,11 +6,16 @@
 
 #### `make install` or `npm install`
 
+<br >
 
 ## Run in report-app
 
 #### `make run` or `npm start`
 
+http://localhost:8024
+
 ## Run in api-server
 
 #### `make run` or `npm start`
+
+http://localhost:8026
