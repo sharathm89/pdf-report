@@ -1,22 +1,23 @@
 const puppeteer = require("puppeteer");
 const { ReportBuilder } = require("@jikji/generator");
 
-exports.misReportPdfBuffer = async () => {
+async function build() {
 	const browser = await puppeteer.launch({
 		args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
 		headless: "new",
 	});
 
 	try {
-		const host = "http://localhost:8024";
-		const path = "/";
-
-		const obj = ReportBuilder.browser(browser).remoteHost(host);
-
-		await obj.report(path).pdf().build();
-
-		return obj.result.get(path).pdf;
+		await ReportBuilder.browser(browser)
+			.remoteHost("http://localhost:8024")
+			.report("/")
+			.pdf({
+				path: "./out.pdf",
+			})
+			.build();
 	} finally {
 		await browser.close();
 	}
-};
+}
+
+build();
